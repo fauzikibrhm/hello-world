@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>
+		Formulir
+		</title>
+		<link rel="stylesheet" type="text/css" href="style2.css">
+	</head>
+	<body>
+		<div class="navbar">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="biodata.html">PROFILE</a></li>
+				<li><a class="active" href="form.html">FORM</a></li>
+				<li><a href="layer.html">LAYER</a></li>
+				<li class="dropdown"><a class="dropbtn">YELLOW CLAW</a>
+				<div class="dropdown-content">
+      				<a href="lagu.html">Songs</a>
+        			<a href="video.html">Video Clip</a>
+      				<a href="image.html">Image Gallery</a>
+    			</div></li>
+				<li style="float:right"><a href="about.html">ABOUT</a></li>
+			</ul>
+		</div>
+		<div class="formulir">
+			<h1>DATA PENGUNJUNG WEBSITE SAYA</h1>
+			<form>
+				<label for="nama">NAMA ANDA :</label>
+				<input type="text" id="nama" name="namalengkap" placeholder="Nama Lengkap...">
+				<label for="jk">JENIS KELAMIN :</label>
+				<select id="jk">
+					<option value="laki-laki">Laki-Laki</option>
+					<option value="perempuan">Wanita</option>
+				</select>
+				<label for="sekolah">ASAL SEKOLAH :</label>
+				<input type="text" id="sekolah" name="asalsekolah" placeholder="Asal Sekolahmu...">
+				<label for="setuju">APAKAH SETUJU JIKA WEBSITE INI BERMANFAAT ?</label><br>
+				<input type="radio" id="setuju" name="gender" value="Setuju"> Setuju<br>
+  				<input type="radio" id="setuju" name="gender" value="TidakSetuju"> Tidak Setuju<br>
+  				<label for="kritik">KRITIK DAN SARAN :</label><br> 
+  				<textarea rows="4" cols="50"></textarea>
+				<input type="submit" value="Submit">
+			</form>
+		</div>	
+	</body>
+</html>
